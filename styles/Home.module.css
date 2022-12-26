@@ -173,3 +173,13 @@
 .submit_button:hover {
   cursor: pointer;
 }
+.footer_text {
+  text-align: center;
+  color: white;
+  font-family: Poppins;
+}
+
+#kacper {
+  color: #FBD38D;
+}
+
