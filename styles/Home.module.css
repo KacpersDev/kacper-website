@@ -232,7 +232,17 @@
     left: 185px;
     margin-top: 10px;
   }
+  .logo {
+    justify-content: center;
+  }
 }
+
+@media only screen and (max-width: 460px) {
+  .logo {
+    margin-left: 200px;
+  }
+}
+
 @media only screen and (min-width: 651px) {
   .menu {
     display: none;

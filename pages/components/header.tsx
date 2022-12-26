@@ -27,7 +27,7 @@ export default function Header(){
                 <img className={styles.logo} src={banner.src} alt={"banner"} />
             </div>       
             <div className={styles.located}>
-                <p>Hello, I'm an Full Stack Developer located in Czechia!</p>
+                <p className={styles.located_text}>Hello, I'm an Full Stack Developer located in Czechia!</p>
             </div>
         </div>
     )    
