@@ -13,7 +13,7 @@ app.prepare()
         server.use(bodyParser.json())
         server.use(bodyParser.urlencoded({ extended: true }))
 
-        server.post('/contact', (req, res) => {
+        server.post('/contact', (req, res) => { 
             const name = req.body.name;
             const email = req.body.email;
             const message = req.body.message;

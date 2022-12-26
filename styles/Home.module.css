@@ -178,8 +178,63 @@
   color: white;
   font-family: Poppins;
 }
-
 #kacper {
   color: #FBD38D;
 }
 
+.menu_button {
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: url('../images/menu.svg');
+  display: none;
+}
+.toggle_menu {
+  display: none;
+}
+.menu_button:hover {
+  cursor: pointer;
+}
+.toggle_button {
+  color: white;
+  background: none;
+  border: none;
+  font-family: Poppins;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.toggle_button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+/* MEDIA */
+/* header_text*/
+
+@media only screen and (max-width: 650px) {
+  .header_buttons {
+    display: none;
+  }
+  .header_text {
+    margin-left: 120px;
+  }
+  .header {
+    margin-bottom: 100px;
+  }
+  .menu_button {
+    display: flex;
+    position: relative;
+    left: 200px;
+  }
+  .toggle_menu {
+    position: relative;
+    left: 185px;
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 651px) {
+  .menu {
+    display: none;
+  }
+}
