@@ -7,11 +7,11 @@ export default function Contact(){
             <img className={styles.contact_banner} src={banner.src} alt={"banner"} />
             <div className={styles.contact}>
                 <p>Contact Me</p>
-                <form action="POST">
-                    <input className={styles.contact_input} type="text" placeholder='Email'/>
-                    <input className={styles.contact_input} type="text" placeholder='Name'/>
-                    <textarea className={styles.contact_input} name={"textarea"} id={styles.textarea} cols={22} rows={9} placeholder={"Message"}/>
-                    <input type="submit" />
+                <form method='POST' action='/contact'>
+                    <input className={styles.contact_input} type="text" name='email' placeholder='Email'/>
+                    <input className={styles.contact_input} type="text" name='name' placeholder='Name'/>
+                    <textarea className={styles.contact_input} name={"message"} id={styles.textarea} cols={22} rows={9} placeholder={"Message"}/>
+                    <input className={styles.submit_button} type="submit" />
                 </form> 
             </div>
         </div>

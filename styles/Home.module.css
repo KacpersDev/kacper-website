@@ -127,7 +127,7 @@
 }
 .contact_banner {
   width: 300px;
-  margin-left: -10px;
+  margin-left: -35px;
 }
 .contact {
   background-color: #fbd38da9;
@@ -161,4 +161,15 @@
   height: 140px;
   text-align: center;
   text-transform: uppercase;
+}
+.submit_button {
+  background: none;
+  border: none;
+  box-shadow: 1px 5px 40px 5px #1f1f1f;
+  color: white;
+  font-family: Poppins;
+  font-size: 17px;
+}
+.submit_button:hover {
+  cursor: pointer;
 }
